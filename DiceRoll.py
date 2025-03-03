@@ -16,7 +16,7 @@ def main():
     
   #print statictics for dice rolls
   dice = 1
-  for count in rolls:
+  for count in rolls: 
     print(dice, ":", count)
     dice = dice + 1
 

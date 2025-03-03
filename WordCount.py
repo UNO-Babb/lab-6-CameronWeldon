@@ -15,7 +15,7 @@ def main():
     words = line.split()
     for w in words:
       wordCount = wordCount + 1
-      characters = len(line) +  1
+      characters = len(line) +  1 
 
   print ("Lines:", lineCount)
   print ("Words:", wordCount)

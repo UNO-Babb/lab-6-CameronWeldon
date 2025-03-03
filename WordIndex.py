@@ -20,7 +20,7 @@ def main():
 
         if w in words:
            if lineNum not in words[w]:
-            words[w].append(lineNum)
+            words[w].append(lineNum) 
         else:
            words [w] = [lineNum]
 
